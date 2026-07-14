@@ -1,0 +1,205 @@
+.register-page{
+
+    min-height:90vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#F8F6F2;
+
+    padding:40px;
+
+}
+
+.register-container{
+
+    width:100%;
+
+    max-width:1100px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.12);
+
+}
+
+.register-left{
+
+    background:#8B5E3C;
+
+    color:white;
+
+    padding:70px 50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.register-left h1{
+
+    font-size:46px;
+
+    margin-bottom:20px;
+
+}
+
+.register-left p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.register-right{
+
+    padding:60px;
+
+}
+
+.register-right h2{
+
+    font-size:34px;
+
+    color:#2C2C2C;
+
+    margin-bottom:35px;
+
+}
+
+.register-right form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.register-right label{
+
+    font-weight:600;
+
+    color:#333;
+
+}
+
+.register-right input{
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.register-right input:focus{
+
+    border-color:#8B5E3C;
+
+}
+
+.register-right button{
+
+    margin-top:10px;
+
+    background:#8B5E3C;
+
+    color:white;
+
+    border:none;
+
+    padding:16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.register-right button:hover{
+
+    background:#6E472C;
+
+}
+
+.error{
+
+    color:red;
+
+}
+
+.login-link{
+
+    margin-top:25px;
+
+    text-align:center;
+
+}
+
+.login-link a{
+
+    margin-left:6px;
+
+    color:#8B5E3C;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+@media(max-width:768px){
+
+.register-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.register-left{
+
+    padding:40px 30px;
+
+    text-align:center;
+
+}
+
+.register-left h1{
+
+    font-size:34px;
+
+}
+
+.register-right{
+
+    padding:35px 25px;
+
+}
+
+}

@@ -1,0 +1,391 @@
+.about-page{
+    width:100%;
+    background:#fff;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.about-hero{
+
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../assets/images/hero/hero2.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    height:50vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:20px;
+}
+
+.about-hero h1{
+
+    font-size:58px;
+
+    margin-bottom:20px;
+}
+
+.about-hero p{
+
+    font-size:20px;
+
+    max-width:700px;
+
+    line-height:1.8;
+}
+
+/* ==========================
+   Story
+========================== */
+
+.about-story{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:80px auto;
+
+    text-align:center;
+}
+
+.about-story h2{
+
+    font-size:40px;
+
+    color:#2C2C2C;
+
+    margin-bottom:30px;
+}
+
+.about-story p{
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   Mission Vision
+========================== */
+
+.mission-vision{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+}
+
+.card{
+
+    background:#F8F6F2;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+}
+
+.card h3{
+
+    color:#8B5E3C;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+}
+
+.card p{
+
+    color:#666;
+
+    line-height:1.8;
+}
+
+/* ==========================
+   Stats
+========================== */
+
+.about-stats{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:90px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+}
+
+.stat{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.stat:hover{
+
+    transform:translateY(-8px);
+}
+
+.stat h2{
+
+    color:#8B5E3C;
+
+    font-size:42px;
+
+    margin-bottom:12px;
+}
+
+.stat p{
+
+    color:#666;
+
+    font-size:17px;
+}
+
+/* ==========================
+   Why Choose
+========================== */
+
+.why-about{
+
+    background:#F8F6F2;
+
+    padding:80px 50px;
+
+    text-align:center;
+}
+
+.why-about h2{
+
+    font-size:40px;
+
+    margin-bottom:50px;
+
+    color:#2C2C2C;
+}
+
+.why-grid{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+}
+
+.why-grid div{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.why-grid div:hover{
+
+    transform:translateY(-6px);
+
+    color:#8B5E3C;
+}
+
+/* ==========================
+   CTA
+========================== */
+
+.about-cta{
+
+    padding:90px 20px;
+
+    text-align:center;
+}
+
+.about-cta h2{
+
+    font-size:42px;
+
+    color:#2C2C2C;
+
+    margin-bottom:20px;
+}
+
+.about-cta p{
+
+    color:#666;
+
+    font-size:18px;
+
+    margin-bottom:35px;
+}
+
+.cta-btn{
+
+    display:inline-block;
+
+    background:#8B5E3C;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:16px 40px;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.cta-btn:hover{
+
+    background:#6f472d;
+
+    transform:translateY(-3px);
+}
+
+/* ==========================
+   Tablet
+========================== */
+
+@media(max-width:992px){
+
+.about-hero h1{
+
+    font-size:46px;
+}
+
+.mission-vision{
+
+    grid-template-columns:1fr;
+}
+
+.about-stats{
+
+    grid-template-columns:repeat(2,1fr);
+}
+
+.why-grid{
+
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media(max-width:768px){
+
+.about-hero{
+
+    height:40vh;
+}
+
+.about-hero h1{
+
+    font-size:34px;
+}
+
+.about-hero p{
+
+    font-size:16px;
+}
+
+.about-story{
+
+    margin:50px auto;
+}
+
+.about-story h2{
+
+    font-size:30px;
+}
+
+.about-story p{
+
+    font-size:16px;
+}
+
+.about-stats{
+
+    grid-template-columns:1fr;
+}
+
+.why-grid{
+
+    grid-template-columns:1fr;
+}
+
+.why-about{
+
+    padding:60px 20px;
+}
+
+.about-cta h2{
+
+    font-size:30px;
+}
+
+}

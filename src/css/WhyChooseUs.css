@@ -1,0 +1,69 @@
+.why-section{
+    padding:80px 50px;
+    background:#fff;
+}
+
+.why-section h2{
+    text-align:center;
+    font-size:42px;
+    color:#2C2C2C;
+    margin-bottom:50px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.why-card{
+    background:#F8F6F2;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:0.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(139,94,60,.15);
+}
+
+.why-icon{
+    color:#8B5E3C;
+    margin-bottom:20px;
+}
+
+.why-card h3{
+    font-size:28px;
+    color:#2C2C2C;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#666;
+    font-size:18px;
+    line-height:1.7;
+}
+
+@media(max-width:768px){
+
+    .why-section{
+        padding:60px 20px;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .why-card h3{
+        font-size:24px;
+    }
+
+    .why-card p{
+        font-size:16px;
+    }
+}

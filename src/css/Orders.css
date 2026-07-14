@@ -1,0 +1,23 @@
+.orders-page{
+    width:90%;
+    margin:40px auto;
+}
+
+.orders-page h1{
+    margin-bottom:30px;
+}
+
+.empty-orders{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.empty-orders button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#8B5E3C;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}

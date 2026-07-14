@@ -1,0 +1,24 @@
+.sort-dropdown{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+.sort-dropdown label{
+    font-weight:600;
+    color:#2C2C2C;
+}
+
+.sort-dropdown select{
+    padding:10px 15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:15px;
+    cursor:pointer;
+    outline:none;
+}
+
+.sort-dropdown select:focus{
+    border-color:#8B5E3C;
+}

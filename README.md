@@ -1,16 +1,152 @@
-# React + Vite
+# 🛋️ FurniHome - MERN Furniture Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Furniture Store web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The application allows users to browse furniture, search and filter products, manage their cart and wishlist, place orders, download invoices, and contact the store.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 👤 User
+- User Registration & Login (JWT Authentication)
+- User Profile Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛍️ Products
+- Browse Furniture Products
+- Product Details Page
+- Search Products
+- Category Filter
+- Price Filter
+- Sort by Price & Rating
 
-## Expanding the ESLint configuration
+### ❤️ Wishlist
+- Add to Wishlist
+- Remove from Wishlist
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Cart
+- Add to Cart
+- Update Quantity
+- Remove Product
+- Clear Cart
+
+### 📦 Orders
+- Checkout
+- Cash on Delivery
+- My Orders
+- Order History
+- Download PDF Invoice
+
+### 📩 Contact
+- Contact Form
+- Messages stored in MongoDB
+
+### 🎨 UI
+- Responsive Design
+- Loading Spinner
+- Toast Notifications
+- 404 Not Found Page
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router
+- Context API
+- Axios
+- React Hot Toast
+- Lucide React
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
+
+---
+
+## 📂 Project Structure
+
+```
+FurniHome-MERN
+│
+├── server
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   └── index.js
+│
+├── src
+│   ├── api
+│   ├── components
+│   ├── context
+│   ├── pages
+│   ├── utils
+│   └── App.jsx
+│
+└── package.json
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Asmita5145/FurniHome-MERN.git
+```
+
+### Install dependencies
+
+Frontend
+
+```bash
+npm install
+```
+
+Backend
+
+```bash
+cd server
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env` file inside the `server` folder and add:
+
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+### Run Backend
+
+```bash
+cd server
+npm start
+```
+
+### Run Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+## 👩‍💻 Author
+
+**Asmita**
+
+Computer Science & Engineering Student
+
+---
+
+⭐ If you like this project, feel free to star this repository.
